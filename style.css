@@ -1,0 +1,113 @@
+.apple{
+    width: 20px;
+    height: 20px;
+
+}
+.navbars{
+    display:flex;
+    justify-content: space-evenly;
+}
+#navbutton{
+    background-color:rgb(240, 96, 180);
+    color: white;
+
+    
+}
+#button{
+    background-color: rgb(2, 2, 53);
+    color: white;
+    border-radius: 5px;
+}
+.buttons1{
+    display: flex;
+    gap: 20px;
+}
+#button2{
+    border-radius: 5px;
+}
+#image1{
+    width: 500px;
+    height: 400px;
+}
+.first{
+    display:flex;
+    justify-content: space-evenly;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.num{
+    display: flex;
+    justify-content: baseline;
+    gap: 30px;
+}
+#image40{
+    width: 200px;
+    height: 200px;
+}
+.last{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.footicons{
+    width: 30px;
+    height: 30px;
+}
+.foot{
+    display: flex;
+    justify-content:left;
+}
+.footerwords{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.footer1{
+    background-color: rgb(2, 2, 51);
+}
+#c{
+    width: 15px;
+}
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+}
+.head1{
+    text-align: center;
+    font-style:italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.mobile{
+    display: flex;
+    justify-content: space-evenly;
+}
+.okay{
+    display: flex;
+    justify-content: space-evenly;
+}
+#cp{
+    border-radius: 500px;
+    width: 50px;
+    height: 50px;
+}
+.clients{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#google{
+    width: 200px;
+    
+}
+
+
+
