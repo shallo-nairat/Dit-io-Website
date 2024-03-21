@@ -11,7 +11,9 @@
     background-color:rgb(240, 96, 180);
     color: white;
 
-    
+}
+.nav{
+    justify-items: center;
 }
 #button{
     background-color: rgb(2, 2, 53);
@@ -26,8 +28,8 @@
     border-radius: 5px;
 }
 #image1{
-    width: 500px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 .first{
     display:flex;
@@ -35,13 +37,22 @@
 }
 .products{
     display: flex;
-    justify-content: space-evenly;
-    gap: 50px;
+    justify-content: center;
+    gap: 60px;
 }
 .icons{
-    display: flex;
-    justify-content: space-evenly;
+        display: flex;
+        justify-content:center;
+        gap: 15px;
+        
+        
 }
+.images{
+    width: 20px;
+    height: 20px;
+
+}
+
 .num{
     display: flex;
     justify-content: baseline;
@@ -71,9 +82,11 @@
 }
 .footer1{
     background-color: rgb(2, 2, 51);
+    
 }
 #c{
     width: 15px;
+    height: 20px;
 }
 .footer2{
     display: flex;
@@ -105,9 +118,31 @@
 }
 
 #google{
-    width: 200px;
-    
+    width: 100px;
+   
 }
 
+ @media screen  and(min-width:200px) and (max-width:600px){
+    .first{
+      
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .icons{
+        
+        flex-wrap: wrap;
+        gap:2px;
+        flex-direction: row;
+        width: 10px;
+            
+    }
+    .navbars{
 
-
+    }
+    
+    .last{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+ }
